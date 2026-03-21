@@ -87,18 +87,21 @@ p
 	display: flex;
 	gap: 3rem;
 	margin-bottom: 1rem;
+	width: 67%;
 }
 
 .flat1
 {
 	display: flex;
 	gap: 0.7rem;
+	width: 67%;
 }
 
 .flat2
 {
 	display: flex;
 	gap: 0.7rem;
+	width: 67%;
 }
 
 .flat3
@@ -106,6 +109,7 @@ p
 	display: flex;
 	gap: 0.7rem;
 	margin-left: 0rem;
+	width: 67%;
 }
 
 .notes
@@ -118,8 +122,8 @@ p
 .additionally
 {
 	display: flex;
-	margin-top: 1.4rem;
-	gap: 0.7rem;
+	margin-top: 1.4%;
+	gap: 0.7%;
 }
 
 .additionally button
