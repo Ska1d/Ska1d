@@ -28,6 +28,8 @@ button
 	gap: 1rem;
 	background-color: #F7F7F7;
 	border-radius: 0.3rem;
+	width: 5%;
+	hidth: 5%;
 }
 
 p
@@ -87,21 +89,18 @@ p
 	display: flex;
 	gap: 3rem;
 	margin-bottom: 1rem;
-	width: 67%;
 }
 
 .flat1
 {
 	display: flex;
 	gap: 0.7rem;
-	width: 67%;
 }
 
 .flat2
 {
 	display: flex;
 	gap: 0.7rem;
-	width: 67%;
 }
 
 .flat3
@@ -109,7 +108,6 @@ p
 	display: flex;
 	gap: 0.7rem;
 	margin-left: 0rem;
-	width: 67%;
 }
 
 .notes
@@ -117,7 +115,6 @@ p
 	display: flex;
 	gap: 0.7rem;
 	margin-right: 1rem;
-	width: 67%;
 }
 
 .additionally
@@ -125,7 +122,6 @@ p
 	display: flex;
 	margin-top: 1.4%;
 	gap: 0.7%;
-	width: 67%;
 }
 
 .additionally button
