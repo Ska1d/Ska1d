@@ -23,9 +23,9 @@ body
 
 button
 {
-	width: 2rem;
-	height: 2rem;
-	gap: 1rem;
+	width: 5%;
+	height: 5%;
+	gap: 1%;
 	background-color: #F7F7F7;
 	border-radius: 0.3rem;
 }
