@@ -28,8 +28,7 @@ button
 	gap: 1rem;
 	background-color: #F7F7F7;
 	border-radius: 0.3rem;
-	width: 5%;
-	hidth: 5%;
+	width: 100%;
 }
 
 p
@@ -80,6 +79,7 @@ p
 	flex-direction:column;
 	margin-bottom: 1%;
 	width: 67%;
+	height: 100%;
 }
 
 .flat
