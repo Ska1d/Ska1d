@@ -28,9 +28,11 @@ body
 
 button
 {
-	width: 3rem;
-	height: 3rem;
-	gap: 1rem;
+	min-width: 5vw;
+	min-height: 5vw;
+	max-width: 5vh;
+	max-height: 5vh;
+	gap: 1vw;
 	background-color: #F7F7F7;
 	border-radius: 0.3rem;
 }
@@ -161,7 +163,6 @@ p
 {
 	background-color : #9C9C9C;
 	border-color: #737373;
-	margin-bottom: 1rem;
 }
 
 #D\#
