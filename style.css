@@ -6,7 +6,7 @@
 
 html
 {	
-	width: 100%;
+	max-width: 100%;
 	height: 100%;
 }
 
@@ -42,7 +42,7 @@ p
 
 .main
 {
-	min-width: 70rem;
+	max-width: 70%;
 	background-color: #292929;
 	height: 100%;
 	display: flex;
@@ -54,7 +54,7 @@ p
 .tabs
 {
 	height: 70%;
-    min-width: 60rem;
+    max-width: 90%;
     background-color: white;
     color: black;
 
