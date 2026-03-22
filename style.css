@@ -28,11 +28,10 @@ body
 
 button
 {
-	min-width: 5vw;
-	min-height: 5vw;
+	min-width: 2.5vw;
+	min-height: 2.5vw;
 	max-width: 5vh;
 	max-height: 5vh;
-	gap: 1vw;
 	background-color: #F7F7F7;
 	border-radius: 0.3rem;
 }
@@ -90,7 +89,7 @@ p
 
 .flat
 {
-	margin-left: 2rem;
+	margin-left: 2.5 vw;
 	display: flex;
 	gap: 3rem;
 	margin-bottom: 1rem;
