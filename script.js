@@ -135,6 +135,17 @@ function clear()
 	console.log(tabs);
 }
 
+function fieldWidth()
+{
+		var observer = new ResizeObserver(function(entries)
+	{
+	    var width = entries[0].contentRect.width;
+	    console.log(width);
+	});
+	
+	observer.observe(tabsfield);
+}
+
 function buttons()
 {
 	//octave 1
@@ -301,4 +312,5 @@ function buttons()
 //main
 
 tabsfield.textContent = null;
-buttons()
+buttons();
+fieldWidth();
