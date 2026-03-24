@@ -37,7 +37,7 @@ button
 
 p
 {
-	font-size: 2vw;
+	font-size: 2rem;
 }
 
 .main
@@ -55,7 +55,7 @@ p
 .tabs
 {
 	min-height: 70vh;
-    min-width: 85%;
+    min-width: 80%;
     background-color: white;
     color: black;
 
@@ -89,7 +89,7 @@ p
 {
 	margin-left: 2.5vw;
 	display: flex;
-	gap: 3rem;
+	gap: 3vw;
 	margin-bottom: 1rem;
 }
 
