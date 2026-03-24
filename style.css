@@ -43,7 +43,7 @@ p
 .main
 {
 	min-width: 80%;
-	max-width: 70%;
+	max-width: 70rem;
 	min-height: 100vh;
 	background-color: #292929;
 	display: flex;
@@ -56,13 +56,14 @@ p
 {
 	min-height: 70vh;
     min-width: 80%;
+	max-width: 60rem;
     background-color: white;
     color: black;
 
     border-radius: 0.5rem;
     padding: 1.2rem;
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: auto;
     
     font-family: monospace;
     font-size: 1.2rem;
