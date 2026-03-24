@@ -28,18 +28,14 @@ body
 
 button
 {
-	font-size: 2em;
+	font-size: 1.8vw;
+	font-family: monospace;
 	min-width: 2.5vw;
 	min-height: 2.5vw;
 	max-width: 5vh;
 	max-height: 5vh;
 	background-color: #F7F7F7;
 	border-radius: 0.3rem;
-}
-
-p
-{
-	font-size: 2rem;
 }
 
 .main
