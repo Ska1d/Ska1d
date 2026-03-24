@@ -55,8 +55,9 @@ p
 .tabs
 {
 	min-height: 70vh;
-    min-width: 80%;
 	max-width: 60rem;
+    min-width: 80%;
+	
     background-color: white;
     color: black;
 
