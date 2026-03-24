@@ -67,14 +67,15 @@ let tabs = [];
 let bufferT = [];
 let line = 0;
 let flag = 0;
-
+let width = null;
+let symbols = null;
 //functions
 
 function distribution()
 {
 	bufferT = [];
 
-	if (column > 45)
+	if (column > symbols - 1)
 	{
 		line += 9;
 		column = 0;
@@ -113,7 +114,7 @@ function clear()
 		if (column == 0 && line != 0)
 		{
 			line = line - 9;
-			column = 46;
+			column = symbols;
 		}
 
 	}
@@ -139,8 +140,9 @@ function fieldWidth()
 {
 		var observer = new ResizeObserver(function(entries)
 	{
-	    var width = entries[0].contentRect.width;
+	    width = entries[0].contentRect.width;
 	    console.log(width);
+		symbols = width / 20.9
 	});
 	
 	observer.observe(tabsfield);
