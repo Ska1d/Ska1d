@@ -3,6 +3,10 @@
 {
     white-space: pre;
 }
+p
+{
+ font-size: 2vw;
+}
 
 html
 {	
@@ -28,7 +32,7 @@ body
 
 button
 {
-	font-size: 1.6vw;
+	font-size: 1.2vw;
 	min-width: 2.5vw;
 	min-height: 2.5vw;
 	max-width: 5vh;
