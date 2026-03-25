@@ -11,11 +11,6 @@ html
 	-webkit-text-size-adjust: 100%;
 }
 
-p
-{
-	font-family: "JetBrains Mono", monospace;
-}
-
 body 
 {
 	display: flex;
@@ -68,7 +63,7 @@ button
     overflow-y: auto;
     overflow-x: auto;
     
-    font-family: monospace;
+    font-family: "JetBrains Mono", monospace;
     font-size: 1.2rem;
 
     display: block;
