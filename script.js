@@ -32,7 +32,7 @@ const button_space = document.getElementById("space");
 const button_backspace = document.getElementById("backspace");
 
 const low_d = ["●","●", "●", " ", "●", "●", "●", " ", " "];
-const low_d_s = ["●","●", "●", " ", "●", "●", "x", " ", " "];
+const low_d_s = ["●","●", "●", " ", "●", "●", "▾", " ", " "];
 const low_e = ["●","●", "●", " ", "●", "●", "○", " ", " "];
 const low_f = ["●","●", "●", " ", "●", "▾", "○", " ", " "];
 const low_f_s = ["●","●", "●", " ", "●", "○", "○", " ", " "];
