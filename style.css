@@ -65,7 +65,7 @@ button
 .tabs
 {
 	min-height: 70vh;
-	max-width: 80%;
+	width: 80%;
 	
     background-color: white;
     color: black;
