@@ -53,7 +53,7 @@ button
 
 .main
 {
-	max-width: 80%;
+	min-width: 80%;
 	min-height: 100vh;
 	background-color: #292929;
 	display: flex;
@@ -65,8 +65,7 @@ button
 .tabs
 {
 	min-height: 70vh;
-	max-width: 60rem;
-    min-width: 80%;
+	max-width: 80%;
 	
     background-color: white;
     color: black;
