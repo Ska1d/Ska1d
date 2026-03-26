@@ -9,6 +9,16 @@ p
 	font-family: "Oswald", sans-serif;
 }
 
+@font-face 
+{
+    font-family: "FluteTabs";
+    src: url("fonts/ska1d.eot"); /* для старых IE */
+	src: url("fonts/ska1d.woff") format("woff"),
+         url("fonts/ska1d.ttf") format("truetype"); /* Safari / iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
 html
 {	
 	max-width: 100%;
@@ -67,7 +77,7 @@ button
     overflow-y: auto;
     overflow-x: auto;
     
-    font-family: "Fira Code", monospace;
+    font-family: "FluteTabs";
     font-size: 1.2rem;
 
     display: block;
