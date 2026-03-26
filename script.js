@@ -139,11 +139,11 @@ function clear()
 
 function fieldWidth()
 {
-		var observer = new ResizeObserver(function(entries)
+	var observer = new ResizeObserver(function(entries)
 	{
 	    width = entries[0].contentRect.width;
 	    console.log(width);
-		if (flag != 1)
+		if (flag == 0)
 		{
 			symbols = width / 20.9;
 		}	
