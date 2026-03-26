@@ -53,8 +53,7 @@ button
 
 .main
 {
-	min-width: 80%;
-	max-width: 70rem;
+	max-width: 80%;
 	min-height: 100vh;
 	background-color: #292929;
 	display: flex;
