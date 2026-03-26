@@ -98,6 +98,7 @@ function distribution()
 	}
 
 	tabsfield.textContent = bufferT.join("\n");
+	flag = 1;
 }
 
 function clear()
@@ -142,7 +143,10 @@ function fieldWidth()
 	{
 	    width = entries[0].contentRect.width;
 	    console.log(width);
-		symbols = width / 20.9
+		if (flag != 1)
+		{
+			symbols = width / 20.9;
+		}	
 	});
 	
 	observer.observe(tabsfield);
