@@ -12,9 +12,9 @@ p
 @font-face 
 {
     font-family: "FluteTabs";
-    src: url("fonts/ska1d.eot"); /* для старых IE */
-	src: url("fonts/ska1d.woff") format("woff"),
-         url("fonts/ska1d.ttf") format("truetype"); /* Safari / iOS */
+    src: url("fonts/whistlesymbols.eot"); /* для старых IE */
+	src: url("fonts/whistlesymbols.woff") format("woff"),
+         url("fonts/whistlesymbols.ttf") format("truetype"); /* Safari / iOS */
     font-weight: normal;
     font-style: normal;
 }
