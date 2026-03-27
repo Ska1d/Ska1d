@@ -121,14 +121,14 @@ function clear()
 	}
 	else if (line != 0)
 	{
-		for (let i = 0; i <8; i++)
+		for (let i = 0; i <9; i++)
 		{
 			let j = i + line;
 			tabs[j][column] = null
 		}
 	}
 
-	for (let i = 0; i < line + 8; i++)
+	for (let i = 0; i < line + 9; i++)
 	{
 		bufferT.push(tabs[i].join(" "));
 	}
