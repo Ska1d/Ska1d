@@ -145,7 +145,7 @@ function fieldWidth()
 	    console.log(width);
 		if (flag == 0)
 		{
-			symbols = width / 28.13;
+			symbols = Math.floor(width / 28.13);
 		}	
 	});
 	
