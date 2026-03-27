@@ -115,7 +115,7 @@ function clear()
 		if (column == 0 && line != 0)
 		{
 			line = line - 9;
-			column = symbols;
+			column = symbols - 1;
 		}
 
 	}
